@@ -9,6 +9,7 @@ class Pie {
       this.angle = random(TWO_PI);
     }
     
+    
     show() {
       push();
       translate(this.x, this.y);
